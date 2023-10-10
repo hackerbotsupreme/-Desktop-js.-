@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="full-img" id="fullimgBox">
+      <img src="pexels-alex-pham-950209.jpg" alt="" id="fullimg" />
+
+      <span onclick="closeFullImg()">X </span>
+    </div>
+    <div class="img-gallery">
+      <img
+        src="pexels-alex-pham-950209.jpg"
+        alt=""
+        id="img"
+        onclick="openFullImg(this.src)"
+      />
+      <img
+        src="pexels-anni-roenkae-2382738.jpg"
+        alt=""
+        id="img"
+        onclick="openFullImg(this.src)"
+      />
+      <img
+        src="pexels-artur-roman-1125792.jpg"
+        alt=""
+        id="img"
+        onclick="openFullImg(this.src)"
+      />
+      <img
+        src="pexels-jits-784602.jpg"
+        alt=""
+        id="img"
+        onclick="openFullImg(this.src)"
+      />
+      <img
+        src="pexels-lukas-628226.jpg"
+        alt=""
+        id="img"
+        onclick="openFullImg(this.src)"
+      />
+      <img
+        src="pexels-magova-772520.jpg"
+        alt=""
+        id="img"
+        onclick="openFullImg(this.src)"
+      />
+      <img
+        src="pexels-malcolm-johnson-690595.jpg"
+        alt=""
+        id="img"
+        onclick="openFullImg(this.src)"
+      />
+      <img
+        src="pexels-min-an-920532.jpg"
+        alt=""
+        id="img"
+        onclick="openFullImg(this.src)"
+      />
+    </div>
+    <script>
+      var fullimgBox = document.getElementById("fullimgBox");
+      var fullimg = document.getElementById("fullimg");
+      function openFullImg(pic) {
+        fullimgBox.style.display = "flex";
+        fullimg.src = pic;
+      }
+      function closeFullImg() {
+        fullimgBox.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
