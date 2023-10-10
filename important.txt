@@ -1,0 +1,16 @@
+16.js --> all the  string methods and the combinations are added here 
+
+17.js --> 
+
+18.js -->
+19.js -->
+20.js -->
+21.js -->
+-Expression expected.
+typescript - what does it means 
+ChatGPT
+Yes, it's correct. The error message "Expression expected" in TypeScript means that the code is missing a valid expression where it's expected.
+
+
+
+
