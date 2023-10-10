@@ -1,0 +1,606 @@
+                         --:(JS curriculum):--
+methods(to remember)-->
+    ->string and array methods 
+    ->window (window object model) methods
+    ->document(document object model) methods
+    ->browser (browser object model) methods
+    ->console(console object model) methods
+1. primitives(data-types)-(6)
+    PRIMITIVES(6)-they are as follws/the following 
+            null 
+            undefined 
+            boolean 
+            number 
+            string & string methods-Imp(22)
+                list of built-in string methods in JavaScript:
+                    concat()
+                    indexOf()
+                    lastIndexOf()
+                    charAt()
+                    charCodeAt()
+                    includes()
+                    startsWith()
+                    endsWith()
+                    substring()
+                    slice()
+                    substr()
+                    split()
+                    replace()
+                    match()
+                    search()
+                    toUpperCase()
+                    toLowerCase()
+                    trim()
+                    trimStart()
+                    trimEnd()
+                    repeat()
+                    length()
+            array & array methods - Imp(31)
+                list of built-in array methods in JavaScript:
+                    concat()
+                    join()
+                    push()
+                    pop()
+                    shift()
+                    unshift()
+                    slice()
+                    splice()
+                    reverse()
+                    sort()
+                    indexOf()
+                    lastIndexOf()
+                    includes()
+                    forEach()
+                    map()
+                    filter()
+                    reduce()
+                    reduceRight()
+                    some()
+                    every()
+                    find()
+                    findIndex()
+                    fill()
+                    copyWithin()
+                    flat()
+                    flatMap()
+                    keys()
+                    values()
+                    entries()
+                    from()
+                    of()
+2. Data-Structures (17)
+    Undefined
+    Null
+    Boolean
+    Number
+    BigInt
+    String
+    Symbol
+    Object
+    array
+    set  
+    weakset 
+    stack
+    tree
+    binary tree
+    linked list
+    graph
+    hash table 
+3. OPERATORS(12) and EXPREESSIONS(23)
+    list of all the operators(12) in JavaScript:
+
+        Arithmetic Operators: +, -, *, /, %, ** (exponentiation)
+        Assignment Operators: =, +=, -=, *=, /=, %=, **=, <<=, >>=, >>>=, &=, ^=, |=
+        Comparison Operators: ==, ===, !=, !==, >, <, >=, <=
+        Logical Operators: && (logical AND), || (logical OR), ! (logical NOT)
+        Bitwise Operators: &, |, ^, ~, <<, >>, >>>
+        Increment/Decrement Operators: ++, --
+        Conditional (Ternary) Operator: ?:
+        Typeof Operator: typeof
+        Instanceof Operator: instanceof
+        Delete Operator: delete
+        Void Operator: void
+        Comma Operator: ,
+
+    list of expressions(23) in JavaScript:
+
+        Assignment Expression
+        Arithmetic Expression
+        String Expression
+        Logical Expression
+        Comparison Expression
+        Conditional Expression
+        Function Call Expression
+        Object Creation Expression
+        Array Creation Expression
+        Unary Expression
+        Update Expression
+        Ternary Expression
+        Grouping Expression
+        Property Access Expression
+        Method Call Expression
+        Await Expression
+        Generator Expression
+        Class Expression
+        Template Literal Expression
+        Tagged Template Expression
+        Arrow Function Expression
+        Async Function Expression
+        Regular Expression Literal
+4. LOOPs(5)
+    list of loops in JavaScript:
+        For Loop
+        While Loop
+        Do-While Loop
+        For-In Loop
+        For-Of Loop
+5. FUNCTIONs(35)
+    Please note that this list includes some commonly used built-in functions in JavaScript
+    list of built-in functions(35) in JavaScript:
+        eval()
+        isNaN()
+        parseFloat()
+        parseInt()
+        isFinite()
+        decodeURI()
+        decodeURIComponent()
+        encodeURI()
+        encodeURIComponent()
+        parseFloat()
+        parseInt()
+        isFinite()
+        escape()
+        unescape()
+        setTimeout()
+        clearTimeout()
+        setInterval()
+        clearInterval()
+        console.log()
+        alert()
+        prompt()
+        confirm()
+        Math.random()
+        Math.round()
+        Math.floor()
+        Math.ceil()
+        Math.abs()
+        Math.max()
+        Math.min()
+        Date()
+        Date.now()
+        Date.parse()
+        Date.UTC()
+        JSON.parse()
+        JSON.stringify()
+6. Concept of Javascript & LImitations of javascript in browser(50+50+50+26=176) 
+    1.Console(26)
+        50 console methods in JavaScript:
+            assert()
+            clear()
+            context()
+            count()
+            countReset()
+            debug()
+            dir()
+            dirxml()
+            error()
+            exception()
+            group()
+            groupCollapsed()
+            groupEnd()
+            info()
+            log()
+            markTimeline()
+            profile()
+            profileEnd()
+            table()
+            time()
+            timeEnd()
+            timeStamp()
+            timeline()
+            timelineEnd()
+            trace()
+            warn()
+            
+    2.DOM(50)
+        (NAVIGATING AND ACCESING AND MANIPULATING  PARENT CHILDREN SIBLING ELEMENTS)
+        50 DOM (Document Object Model) methods in JavaScript:
+            --------------------------------------------------------------------
+            1.
+            getElementById()
+            getElementsByClassName()
+            getElementsByTagName()
+            --------------------------------------------------------------------
+            2.
+            createElement()
+            createTextNode()
+            cloneNode()
+            childNodes
+            --------------------------------------------------------------------
+            3.
+            appendChild()
+            removeChild()
+            replaceChild()
+            --------------------------------------------------------------------
+            4.
+            querySelector()
+            querySelectorAll()
+            insertBefore()
+            --------------------------------------------------------------------  
+            5.         
+            parentNode
+            childNode
+            firstChild
+            lastChild
+            nextChild
+            nextSibling
+            previousSibling
+            hasChildNodes()
+            --------------------------------------------------------------------
+            6.
+            innerHTML
+            outerHTML
+            textContent
+            className
+            classList
+            getAttribute()
+            setAttribute()
+            removeAttribute()
+            style
+            --------------------------------------------------------------------
+            7.
+            offsetWidth
+            offsetHeight
+            offsetLeft
+            offsetTop
+            --------------------------------------------------------------------
+            8.
+            clientWidth
+            clientHeight
+            --------------------------------------------------------------------
+            9.
+            scrollWidth
+            scrollHeight
+            scrollTop
+            scrollLeft
+            scrollIntoView()
+            --------------------------------------------------------------------
+            10.
+            addEventListener()
+            removeEventListener()
+            --------------------------------------------------------------------
+            11.
+            matches ()
+            closest()
+            --------------------------------------------------------------------
+            13.
+            focus()
+            blur()
+            reset()
+            click()
+            submit()
+            select()
+            dispatchEvent()
+            --------------------------------------------------------------------     
+            14.
+            addEventListener()
+            removeEventListener()
+            --------------------------------------------------------------------     
+            15.
+            document.write()
+            document.writeln()
+            document.open()
+            document.close()
+            --------------------------------------------------------------------     
+    3.BOM(50)
+        50 BOM (Browser Object Model) methods in JavaScript:
+            --------------------------------------------------------------------
+            1.
+            alert()
+            confirm()
+            prompt()
+            --------------------------------------------------------------------
+            2.
+            setTimeout()
+            clearTimeout()
+            setInterval()
+            clearInterval()
+            --------------------------------------------------------------------
+            3.
+            open()
+            close()
+            focus()
+            blur()
+            print()
+            --------------------------------------------------------------------
+            4.
+            screen
+            screenLeft
+            screenTop
+            screenX
+            screenY
+            --------------------------------------------------------------------
+            5.
+            innerWidth
+            innerHeight
+            outerWidth
+            outerHeight
+            --------------------------------------------------------------------
+            6.
+            location
+            location.href
+            location.reload()
+            location.replace()
+            location.assign()
+            --------------------------------------------------------------------
+            7.
+            history
+            history.back()
+            history.forward()
+            history.go()
+            --------------------------------------------------------------------
+            8.
+            navigator
+            navigator.userAgent
+            navigator.platform
+            navigator.language
+            navigator.cookieEnabled
+            navigator.onLine
+            navigator.geolocation
+            navigator.vibrate()
+            navigator.getBattery()
+            navigator.mediaDevices
+            navigator.mediaDevices.getUserMedia()
+            navigator.clipboard
+            navigator.permissions
+            navigator.permissions.query()
+            navigator.sendBeacon()
+            navigator.serviceWorker
+            navigator.serviceWorker.register()
+            navigator.storage
+            navigator.storage.persist()
+            navigator.userAgentData
+            --------------------------------------------------------------------
+    4.Window(50)
+        50 Window methods in JavaScript:
+            --------------------------------------------------------------------
+            1.     
+            alert()
+            confirm()
+            prompt()
+            --------------------------------------------------------------------   
+            2.  
+            setTimeout()
+            clearTimeout()
+            setInterval()
+            clearInterval()
+            --------------------------------------------------------------------   
+            3.  
+            open()
+            close()
+            focus()
+            blur()
+            print()
+            postMessage()
+            getComputedStyle()
+            matchMedia()
+            --------------------------------------------------------------------     
+            4.
+            scroll()
+            scrollTo()
+            scrollBy()
+            scrollIntoView()
+            --------------------------------------------------------------------     
+            5.
+            requestAnimationFrame()
+            cancelAnimationFrame()
+            --------------------------------------------------------------------     
+            6.
+            getSelection()
+            --------------------------------------------------------------------
+            6.     
+            URL.createObjectURL()
+            URL.revokeObjectURL()
+            --------------------------------------------------------------------     
+            8.
+            localStorage.getItem()
+            localStorage.setItem()
+            localStorage.removeItem()
+            --------------------------------------------------------------------    
+            9. 
+            sessionStorage.getItem()
+            sessionStorage.setItem()
+            sessionStorage.removeItem()
+            --------------------------------------------------------------------     
+            10.
+            document.createElement()
+            document.createTextNode()
+            document.getElementById()
+            document.getElementsByClassName()
+            document.getElementsByTagName()
+            document.querySelector()
+            document.querySelectorAll()
+            document.addEventListener()
+            document.removeEventListener()
+            document.write()
+            document.writeln()
+            document.open()
+            document.close()
+            -------------------------------------------------------------------- 
+            11.    
+            navigator.geolocation.getCurrentPosition()
+            navigator.geolocation.watchPosition()
+            navigator.geolocation.clearWatch()
+            --------------------------------------------------------------------     
+7. Features(50)
+    This list covers a broad range of commonly used features and functionalities in JavaScript development. Keep in mind that JavaScript is a versatile language with many libraries, frameworks, and additional features beyond what is listed here.
+    list of commonly used features in JavaScript, including the most commonly used ones:
+        Control Flow (if-else statements, switch statements)
+        Functions
+        Arrays
+        Objects
+        JSON (JavaScript Object Notation)
+        GETTERS & Setters 
+        DESTRUCTING ASSIGNMENT
+        LOCAL AND GLOBAL SCOPE 
+        HOISTING IN JS 
+        CLOSURES IN JS
+        JS IN SERVER
+        EXPRESS.JS TO CREATE A BACKEND SERVER 
+        EVENT LOOPS AND PROJECTS 
+        Loops (for loop, while loop, do-while loop)
+        Error Handling (try-catch statements)
+        String Manipulation
+        Math Object and Math Functions
+        Date Object
+        Regular Expressions
+        Global Objects (e.g., Object, Array, String, Number)
+        Prototypes and Prototypal Inheritance
+        Closures
+        Callback Functions
+        Asynchronous Programming (e.g., setTimeout, setInterval)
+        Promises
+        Fetch API
+        XMLHttpRequest
+        LocalStorage
+        SessionStorage
+        Cookies
+        Event Handling (DOM events)
+        DOM Manipulation (Selecting elements, Modifying elements)
+        Form Handling (Validation, Submitting data)
+        Templating (e.g., using libraries like Handlebars, Mustache)
+        AJAX (Asynchronous JavaScript and XML)
+        Routing (e.g., using libraries like React Router, Vue Router)
+        Dependency Management (e.g., npm, Yarn)
+        Module Bundlers (e.g., Webpack, Rollup)
+        Transpilers (e.g., Babel)
+        Async/Await
+        Arrow Functions
+        Spread Syntax
+        Destructuring Assignment
+        Template Literals
+        Classes and Object-Oriented Programming (OOP) in JavaScript
+        ES Modules (import/export)
+        Higher-Order Functions
+        Array Methods (e.g., map, filter, reduce)
+        DOM Traversal and Manipulation (e.g., querySelector, createElement)
+        Event Delegation
+        Web APIs (e.g., Geolocation API, Drag and Drop API)
+        Canvas API
+        WebSockets
+        Media APIs (e.g., Audio, Video)
+        Geolocation API
+        Mobile Development (e.g., Cordova, React Native)   
+8. OOPS(Object-Oriented Programming System) in Javascript(20)
+    1.Encapsulation
+        20 encapsulation examples in JavaScript, including the most common and simple ones:
+            Private variables using closures
+            Private methods using closures
+            Getters and setters
+            Constructor functions
+            Classes (ES6+)
+            Modules (ES6+)
+            Immediately Invoked Function Expressions (IIFE)
+            Revealing Module Pattern
+            Singleton pattern
+            Factory functions
+            Namespaces
+            Symbol-based encapsulation
+            WeakMap-based encapsulation
+            Proxy objects
+            Data hiding with closures
+            Prototype-based encapsulation
+            Mixins and composition
+            Encapsulated event handling
+            Encapsulation in frameworks like React or Vue.js
+            Encapsulated data validation
+    2.Inheritance
+    3.Polymorphism
+    4.Abstraction
+
+list of content in 'js concepts i done structurly'
+    1.what is the difference between run and compile 
+    2.what is the difference between compiler and terminal  
+    3.what is compiler and what are some of examples 
+    4.what is the difference between npm and node js 
+    5.what are npm and node js and why do we need the to run javascript 
+    6.list of  all PROCESSES  in js 
+    7.what are timeout functions in js 
+    8.list of  all TIMEOUT METHOD methods  in js 
+    9.list of  all HTML ATTRIBUTES methods  in js 
+    10.list of  all  WINDOW OBJECT methods 
+    11.more and dont repeat the same 
+    12.list of  all methods that are used to access lemets from the dom 
+    13.all methods that are used to access lemets from the dom 
+    14.difference between let and var 
+    15.what is local and global scope 
+    16.how many  static method are  in js
+    17.static method in js 
+    18.how many  constructors in  javacript 
+    19.constructors in js 
+    20.what are prototypes in js
+    21.ARROW function 
+    22.what is the difference between function and method 
+    23.is if-else a loop or not and why 
+    24.what are callbacks 
+    25.what are promises 
+    26. what are the difference between callbacks and promises 
+    27. what is static method in js 
+    28. what is js in server 
+    29. what is event loops 
+    30. what is an array 
+    31.what is the static and dynamic  website 
+    32.what is and whre is bom of js?
+    33.what is the difference between window  object and bom ?
+    34.explain with an example how window object and bom  are connected to each other ?
+    35.how many functions are therre in the javascript 
+    36.is all the functions are n built in js 
+    37.is emca or es6 is considered as a standard llibrary of js 
+    38.is js is a low level language 
+
+    39.what is called standard library for a languuage 
+    40.is keywords are defined in the standard library of a language 
+    41.where i can see all the reserved keyword list of the js -emcascrpt 
+    42.so is window object methods and bom methods are same ?
+    43.can we distinguish bom and window object on display
+    44.what are the bom api interfaces
+    45.what is called api
+    46.is when we are riting a block of code can we call that an api interface 
+    47.bom api
+    48.do objects are consists of api
+    49.list of objects that comes under bom 
+    50.how many kinds of methods are in js 
+    51.what is the difference between static and dynamic website 
+    52.example of static method 
+    53.what is hoisting in javascript 
+    54.what is the difference between methods and properties in javasscript 
+    55.what are the key differences between methods and properties in javascript 
+    56.is function and methods are same ?
+    57.is ()/parentheses means function?
+    58.if you omit the parentheses  what does it means?
+    59.what is the job of includes in js ?
+    60.what is the disserence between =,==,=== in js ?
+    61.core features of js in browser / js engine ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
