@@ -1,0 +1,138 @@
+1. What is the ‘Strict’ mode in JavaScript and how can it be enabled?
+
+Strict Mode is a new feature in ECMAScript 5 that allows you to place a program or a function in a “strict” operating context. This strict context prevents certain actions from being taken and throws more exceptions. The statement “use strict” instructs the browser to use the Strict mode, which is a reduced and safer feature set of JavaScript.
+2. How to get the status of a CheckBox?
+
+The DOM Input Checkbox Property is used to set or return the checked status of a checkbox field. This property is used to reflect the HTML Checked attribute.
+
+document.getElementById("GFG").checked;
+
+If the CheckBox is checked then it returns True.
+3. How to explain closures in JavaScript and when to use it?
+
+The closure is created when a child functions to keep the environment of the parent’s scope even after the parent’s function has already executed. The Closure is a locally declared variable related to a function. The closure will provide better control over the code when using them.
+javascript
+// Explanation of closure 
+function foo() {
+    let b = 1;
+    function inner() {
+        return b;
+    }
+    return inner;
+}
+let get_func_inner = foo();
+  
+console.log(get_func_inner());
+console.log(get_func_inner());
+console.log(get_func_inner());
+4. What is the difference between call() and apply() methods ?
+
+Both methods are used in a different situation
+
+    call() Method: It calls the method, taking the owner object as argument. The keyword this refers to the ‘owner’ of the function or the object it belongs to. We can call a method that can be used on different objects.
+    apply() Method: The apply() method is used to write methods, which can be used on different objects. It is different from the function call() because it takes arguments as an array.
+
+5. How to target a particular frame from a hyperlink in JavaScript ?
+
+This can be done by using the target attribute in the hyperlink. Like
+
+<a href="/geeksforgeeks.htm" target="newframe">New Page</a>
+
+6. Write the errors shown in JavaScript?
+
+There are three different types of errors in JavaScript.
+
+    Syntax error: A syntax error is an error in the syntax of a sequence of characters or tokens that are intended to be written in a particular programming language.
+    Logical error: It is the most difficult error to be traced as it is the error on the logical part of the coding or logical error is a bug in a program that causes to operate incorrectly and terminate abnormally.
+    Runtime Error: A runtime error is an error that occurs during the running of the program, also known as an exception.
+
+7. What is the difference between JavaScript and Jscript?
+
+JavaScript
+
+    It is a scripting language developed by Netscape.
+    It is used to design client and server-side applications.
+    It is completely independent of Java language.
+
+Jscript
+
+    It is a scripting language developed by Microsoft.
+    It is used to design active online content for the word wide Web.
+
+8. What does var myArray = [[]]; statement declares? 
+
+In JavaScript, this statement is used to declare a two-dimensional array.
+9. How many ways an HTML element can be accessed in JavaScript code? 
+
+There are four possible ways to access HTML elements in JavaScript which are:
+
+    getElementById() Method: It is used to get the element by its id name.
+    getElementsByClass() Method: It is used to get all the elements that have the given classname.
+    getElementsByTagName() Method: It is used to get all the elements that have the given tag name.
+    querySelector() Method: This function takes CSS style selector and returns the first selected element.
+
+10. What is the difference between innerHTML & innerText? 
+
+The innerText property sets or returns the text content as plain text of the specified node, and all its descendants whereas the innerHTML property sets or returns the plain text or HTML contents in the elements. Unlike innerText, inner HTML lets you work with HTML rich text and doesn’t automatically encode and decode text.
+11. What is an event bubbling in JavaScript?
+
+Consider a situation an element is present inside another element and both of them handle an event. When an event occurs in bubbling, the innermost element handles the event first, then the outer, and so on.
+12. What will be the output of the following code?
+javascript
+let X = { geeks: 1 };
+let Output = (function () {
+    delete X.geeks;
+    return X.geeks;
+})();
+  
+console.log(output);
+
+Here the delete will delete the property of the object. X is the object with the geek’s property and it is a self-invoking function that will delete the geek’s property from object X so the result will be undefined.
+13. How are JavaScript and ECMA Script related? 
+
+JavaScript is the main language that has to maintain some rules and regulations which is ECMA Script, these rules also bring new features for the language JavaScript.
+14. How to hide JavaScript code from old browsers that don’t support JavaScript? 
+
+To hide the JavaScript codes from the old browsers that don’t support JavaScript you can use
+
+<!-- before <script> tag and another //--> after </script> tag
+
+all the old browsers that will take that as a long comment of HTML. New browsers that support JavaScript will take that as an online comment.
+15. What will be the output of the following code?
+
+let output = (function(x) {
+    delete x;
+    return x;
+})(0);
+  
+document.write(output);
+
+The output will be 0. The delete operator is used to delete the operator of the object but the X is not the object here it is a local variable. The delete operator doesn’t affect local variables.
+16. In JavaScript, answer if the following expressions result in true or false.
+
+"0" == 0   // true or false ? 
+"" == 0   // true or false ? 
+"" == "0"   // true or false ?
+
+The result will be True for 1st and 2nd case and False for the 3rd case.
+17. How to use any browser for debugging?
+
+By pressing the F12 we can trigger the debugging mode of any browser and can view the result by taping the console.
+18. What is javascript Hoisting? 
+
+When any interpreter runs the code then all the variables are re-hoisted to the top of the original scope. This method is applicable for declaration not for the initialization of a variable. This is known as a javascript Hoisting.
+19. What is the syntax of ‘Self Invoking Function’ ? 
+
+The syntax for Self-Invoking Function: The last bracket contains the function expression.
+
+(function () {
+  return // body of the function
+}());
+
+20. How to use external JavaScript file in another JavaScript file? 
+
+You can use the below code to use external JavaScript code in another JavaScript file. 
+javascript
+let script = document.createElement('script');
+script.src = "external javascript file";
+document.head.appendChild(script)

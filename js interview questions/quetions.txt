@@ -1,0 +1,149 @@
+source 
+https://www.geeksforgeeks.org/javascript-interview-questions-and-answers/
+///////////////////////////////////////////////////////////
+
+1. What are the differences between Java and JavaScript? 
+
+JavaScript is a client-side scripting language and Java is object Oriented Programming language, both of them are totally different from each other.
+
+    JavaScript: It is a light-weighted programming language (“scripting language”) used to develop interactive web pages. It can insert dynamic text into the HTML elements. JavaScript is also known as the browser’s language.
+    Java: Java is one of the most popular and widely used programming languages. It is an object-oriented programming language and has a virtual machine platform that allows you to create compiled programs that run on nearly every platform. Java promised, “Write Once, Run Anywhere”.
+
+2. What are JavaScript Data Types? 
+
+There are three major Data types in JavaScript.
+
+    Primitive
+        Numbers
+        Strings
+        Boolean
+        Symbol
+    Trivial
+        Undefined
+        Null
+    Composite
+        Objects
+        Functions
+        Arrays
+
+3. Which symbol is used for comments in JavaScript? 
+
+Comments are used to prevent the execution of statements. Comments are ignored while the compiler executes the code. There are two types of symbols used to represent comments in JavaScript:
+
+    Double slash: It is known as a single-line comment.
+
+// Single line comment
+
+    Slash with Asterisk: It is known as a multi-line comment.
+
+/* 
+Multi-line comments
+...
+*/
+
+4. What would be the result of 3+2+”7″?
+
+ Here, 3 and 2 behave like an integer, and “7” behaves like a string. So 3 plus 2 will be 5. Then the output will be 5+”7″ = 57.
+5. What is the use of the isNaN function?
+
+ The number isNan function in JavaScript is used to determine whether the passed value is NaN (Not a number) and is of the type “Number”. In JavaScript, the value NaN is considered a type of number. It returns true if the argument is not a number, else it returns false.
+6. Which is faster in JavaScript and ASP script?
+
+ JavaScript is faster compared to ASP Script because JavaScript is a client-side scripting language and does not depend on the server to execute it but the ASP script is a server-side scripting language always dependable on the server.
+7. What is negative infinity?
+
+ The negative infinity in JavaScript is a constant value that is used to represent the lowest available value. It means that no other number is lesser than this value. It can be generated using a self-made function or by an arithmetic operation. JavaScript shows the NEGATIVE_INFINITY value as -Infinity.
+8. Is it possible to break JavaScript Code into several lines?
+
+ Yes, it is possible to break the JavaScript code into several lines in a string statement. It can be broken by using the backslash ‘\’. 
+For example:
+
+document.write("A Online Computer Science Portal\ for Geeks")
+
+The code-breaking line is avoided by JavaScript which is not preferable.
+
+let gfg= 10, GFG = 5,
+Geeks =
+gfg + GFG;
+
+9. Which company developed JavaScript?
+
+Netscape developed JavaScript and was created by Brenden Eich in the year of 1995.
+10. What are undeclared and undefined variables?
+
+    Undefined: It occurs when a variable has been declared but has not been assigned any value. Undefined is not a keyword.
+    Undeclared: It occurs when we try to access any variable which is not initialized or declared earlier using the var or const keyword. If we use ‘typeof’ operator to get the value of an undeclared variable, we will face the runtime error with the return value as “undefined”. The scope of the undeclared variables is always global.
+
+11. Write a JavaScript code for adding new elements dynamically. 
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+  
+<body>
+    <button onclick="create()">
+        Click Here!
+    </button>
+  
+    <script>
+        function create() {
+            let geeks = document.createElement('geeks');
+            geeks.textContent = "Geeksforgeeks";
+            geeks.setAttribute('class', 'note');
+            document.body.appendChild(geeks);
+        }
+    </script>
+</body>
+</html>
+12. What are global variables? How are these variables declared, and what are the problems associated with them?
+
+ In contrast, global variables are the variables that are defined outside of functions. These variables have a global scope, so they can be used by any function without passing them to the function as parameters. 
+
+Example: 
+javascript
+let petName = "Rocky"; //Global Variable
+myFunction();
+  
+function myFunction() {
+    document.getElementById("geeks").innerHTML
+        = typeof petName + "- " +
+        "My pet name is " + petName;
+}
+  
+document.getElementById("Geeks")
+    .innerHTML = typeof petName + "- " +
+    "My pet name is " + petName;
+
+It is difficult to debug and test the code that relies on global variables.
+13. What do you mean by NULL in JavaScript?
+
+ The NULL value represents the no value or no object. It can be called an empty value/object.
+14. How to delete property-specific values?
+
+ The delete keyword is used to delete the whole property and all the values at once like
+
+let gfg={Course: "DSA", Duration:30};
+delete gfg.Course;
+
+15. What is a prompt box?
+
+ It is used to display a dialog box with an optional message prompting the user to input some text. It is often used if the user wants to input a value before entering a page. It returns a string containing the text entered by the user, or null.
+16. What is the ‘this’ keyword in JavaScript?
+
+ Functions in JavaScript are essential objects. Like objects, they can be assigned to variables, passed to other functions, and returned from functions. And much like objects, they have their own properties. ‘this’ stores the current execution context of the JavaScript program. Thus, when it is used inside a function, the value of ‘this’ will change depending on how the function is defined, how it is invoked, and the default execution context.
+17. Explain the working of timers in JavaScript? Also elucidate the drawbacks of using the timer, if any.
+
+The timer is used to execute some specific code at a specific time or any small amount of code in repetition to do that you need to use the functions setTimout, setInterval, and clearInterval. If the JavaScript code set the timer to 2 minutes and when the times are up then the page displays an alert message “times up”. The setTimeout() method calls a function or evaluates an expression after a specified number of milliseconds.
+18. What is the difference between ViewState and SessionState?
+
+    ViewState: It is specific to a single page in a session.
+    SessionState: It is user specific that can access all the data on the web pages.
+
+19. How can you submit a form using JavaScript?
+
+You can use document.form[0].submit() method to submit the form in JavaScript.
+20. Does JavaScript support automatic type conversion? 
+
+Yes, JavaScript supports automatic type conversion.

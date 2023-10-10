@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Borel", cursive;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #2b91e4;
+}
+.box {
+  position: relative;
+  width: 300px;
+}
+.box .inputBox {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+.box .inputBox input {
+  position: relative;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 10px 5px;
+}
+.box .inputBox #toggleBtn {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  background: rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .inputBox #toggleBtn::before {
+  content: "\f06e";
+  font-family: fontAwesome;
+}
+.box .inputBox #toggleBtn.hide::before {
+  content: "\f070";
+}
+.validation {
+  background: #265277;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+.validation ul {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.validation ul li {
+  position: relative;
+  list-style: none;
+  color: #fff;
+  font-size: 0.85em;
+  transition: 0.5s;
+}
+
+.validation ul li::before {
+  content: "\f192";
+  width: 20px;
+  height: 10px;
+  display: inline-flex;
+  font-family: fontAwesome;
+}
+.validation ul li.valid {
+  color: rgba(255, 255, 255, 0.5);
+}
+.validation ul li.valid::before {
+  content: "\f00c";
+  color: #0f0;
+}

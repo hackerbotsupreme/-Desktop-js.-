@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    height: 2000px;
+
+}
+#top{
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    width: 180px;
+    height: 180px;
+
+}

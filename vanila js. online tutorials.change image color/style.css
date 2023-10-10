@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+}
+#bg {
+  top: 0;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  mix-blend-mode: hue;
+}
